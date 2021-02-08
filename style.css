@@ -1,0 +1,104 @@
+body{
+    background-color: #f4f4f4f4;
+    color: #555556;
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight:normal;
+    line-height: 1.6em;
+    margin:0;
+
+}
+
+a{
+    text-decoration: none;
+    color:#000;
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:green;
+}
+a:visited{
+    color:rgb(255, 0, 179);
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+
+}
+
+.box-1{
+    background-color: #333;
+    color: antiquewhite;
+
+    border-right: 5px red solid;
+    border-left: 5px red solid;
+    border-top: 5px red solid;
+    border-bottom: 5px red solid;
+
+    padding: 20px;
+    margin:20px 0px;
+
+
+}
+
+.box-1 h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.category{
+
+    border-right: 1px red solid;
+    padding: 10px;
+    border-radius:15px;
+}
+
+.category h2{
+    text-align:center;
+}
+.category ul{
+    padding: 0;
+    list-style:square;
+
+}
+.category li{
+    padding-bottom:6px;
+}
+.my-form{
+    padding-bottom: 16px;
+}
+.form-group{
+    padding-bottom: 10px;
+}
+.my-form label{
+    display:block;
+}
+.block{
+    float:left;
+    width:33.3%;
+    border:1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float:left;
+    width:70%;
+    box-sizing: border-box;
+    padding:15px;
+}
+
+#sidebar{
+    float:right;
+    width:30%;
+    background-color: #333;
+    color:#fff;
+    box-sizing: border-box;
+    padding:15px;
+}
