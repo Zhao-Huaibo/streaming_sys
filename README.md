@@ -1,9 +1,7 @@
 # streaming_sys
 
-In this repository streaming transformer system for ASR task will be provided.
+This repository will solely be used for personal frontend design training.
 
-# sub
-first up
-second
-third
+
+
 
